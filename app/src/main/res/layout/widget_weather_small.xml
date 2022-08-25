@@ -1,0 +1,59 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    style="@style/Widget.AppWidget.AppWidget.Container"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:theme="@style/Theme.AppWidget.AppWidgetContainer.WeatherForecast">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:minHeight="@dimen/widget_element_min_length"
+        android:orientation="horizontal">
+
+        <ImageView
+            style="@style/Widget.AppWidget.ImageView.WeatherIcon"
+            android:layout_width="@dimen/widget_element_min_length"
+            android:layout_height="@dimen/widget_element_min_length"
+            android:layout_gravity="center_vertical"
+            android:src="@drawable/ic_partly_cloudy" />
+
+        <TextView
+            style="@style/TextAppearance.AppCompat.Large"
+            android:layout_width="0dp"
+            android:layout_height="@dimen/widget_element_min_length"
+            android:layout_weight="1"
+            android:gravity="center_vertical|end"
+            android:text="@string/city_tokyo" />
+    </LinearLayout>
+
+    <TextView
+        style="@style/Widget.AppWidget.TextView.CurrentTemperature"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:gravity="bottom"
+        android:text="@string/degree_14" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:minHeight="@dimen/widget_element_min_length"
+        android:orientation="horizontal">
+
+        <TextView
+            style="@style/TextAppearance.AppCompat.Medium"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginEnd="8dp"
+            android:minHeight="@dimen/widget_element_min_length"
+            android:text="@string/degree_16" />
+
+        <TextView
+            style="@style/TextAppearance.AppCompat.Medium"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:minHeight="@dimen/widget_element_min_length"
+            android:text="@string/degree_10" />
+    </LinearLayout>
+</LinearLayout>

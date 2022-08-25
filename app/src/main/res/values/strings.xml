@@ -1,0 +1,63 @@
+<resources>
+    <string name="app_name">AndroidWidget</string>
+    <string name="action_settings">Settings</string>
+    <!-- Strings used for fragments for navigation -->
+    <string name="first_fragment_label">First Fragment</string>
+    <string name="second_fragment_label">Second Fragment</string>
+    <string name="next">Next</string>
+    <string name="previous">Previous</string>
+
+    <string name="hello_first_fragment">Hello first fragment</string>
+    <string name="hello_second_fragment">Hello second fragment. Arg: %1$s</string>
+    <string name="appwidget_text">EXAMPLE</string>
+    <string name="add_widget">Add widget</string>
+    <string name="app_widget_description">This is an app widget description</string>
+
+    <string name="placeholder_main_activity">This is an Activity of the AppWidget sample. Long press the app icon and choose the widget picker to try the widgets in the sample</string>
+    <string name="grocery_list">Grocery list</string>
+    <string name="add_button_grocery_list_content_description">Add button for grocery list</string>
+    <string name="app_widget_grocery_list_description">Todo list for groceries</string>
+    <string name="grocery_list_milk">Milk</string>
+    <string name="grocery_list_eggs">Eggs</string>
+    <string name="grocery_list_tomatoes">Tomatoes</string>
+    <string name="grocery_list_bacon">Bacon</string>
+    <string name="grocery_list_butter">Butter</string>
+    <string name="grocery_list_cheese">Cheese</string>
+    <string name="grocery_list_potatoes">Potatoes</string>
+    <string name="grocery_list_broccoli">Broccoli</string>
+    <string name="grocery_list_salmon">Salmon</string>
+    <string name="grocery_list_yogurt">Yogurt</string>
+    <string name="select_list_for_widget">Select list for widgets</string>
+    <string name="plus_three_other_items">+3 other items</string>
+    <string name="todo_list">To-do list</string>
+    <string name="todo_list_clean_kitchen">Clean kitchen</string>
+    <string name="todo_list_buy_groceries">Buy groceries</string>
+    <string name="todo_list_build_widgets">Build widgets</string>
+    <string name="radio_button1">Radio Button 1</string>
+    <string name="radio_button2">Radio Button 2</string>
+    <string name="check_box">Check box</string>
+    <string name="switch_element">Switch</string>
+    <string name="items_widget_description">Widget for collection of items</string>
+    <string name="items_collection">Items collection</string>
+    <string name="app_widget_weather_description">Widget for weather forecast</string>
+    <string name="icon_for_weather_content_description">Icon for weather</string>
+    <string name="city_tokyo">Tokyo</string>
+    <string name="mostly_cloudy">Mostly cloudy</string>
+    <string name="degree_10">10°</string>
+    <string name="degree_11">11°</string>
+    <string name="degree_12">12°</string>
+    <string name="degree_13">13°</string>
+    <string name="degree_14">14°</string>
+    <string name="degree_15">15°</string>
+    <string name="degree_16">16°</string>
+    <string name="degree_17">17°</string>
+    <string name="pm_4">4pm</string>
+    <string name="pm_5">5pm</string>
+    <string name="pm_6">6pm</string>
+    <string name="pm_7">7pm</string>
+    <string name="tuesday">Tuesday</string>
+    <string name="wednesday">Wednesday</string>
+    <string name="thursday">Thursday</string>
+    <string name="friday">Friday</string>
+
+</resources>
